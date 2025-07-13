@@ -1,6 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 .raleway-normal {
   font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -14,9 +27,13 @@
    border: none;
 }
 
-banner-title {
-    
+section-title {
+    font-weight: bold;
+    font-size: 42px;
+    color: rgba(37, 36, 50, 1);
 }
+
+
 
 /*header starts here*/
 .header {
@@ -50,10 +67,60 @@ banner-title {
 
 .section-title {
     font-weight: bold;
-    font-size: 65px;
+    font-size: 40px;
     margin: 0 auto;
     max-width: 800px;
     text-align: center;
-    padding: 40px 150px;
-    
+    padding: 40px 150px;   
+}
+
+/*main section starts here*/
+/* about section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-subtitle {
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    font-weight: 300;
+}
+
+.about-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+/*users section starts here */
+.users {
+    background-color: aliceblue;
+}
+
+.users-title {
+    text-align: center;
+}
+
+.users-data {
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-count {
+    color: rgba(78, 71, 255, 1);
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.data-description {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
