@@ -28,6 +28,9 @@
    cursor: pointer;
 }
 
+.btn-primary:hover {
+ background-color: #3e8e41;
+}
 section-title {
     font-weight: bold;
     font-size: 42px;
