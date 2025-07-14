@@ -34,7 +34,6 @@ section-title {
 }
 
 
-
 /*header starts here*/
 .header {
     max-width: 1440px;
@@ -78,7 +77,7 @@ section-title {
 /* about section */
 main {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto;   
 }
 
 .about {
@@ -88,10 +87,17 @@ main {
     align-items: center;
 }
 
+/*.about-description {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}*/
 .about-subtitle {
     font-size: 24px;
     color: rgba(37, 36, 50, 0.5);
     font-weight: 300;
+    padding-top: 23px;
+    padding-bottom: 23px;
 }
 
 .about-img {
@@ -103,10 +109,12 @@ main {
 /*users section starts here */
 .users {
     background-color: aliceblue;
+    padding-top: 130px;
 }
 
 .users-title {
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .users-data {
@@ -123,4 +131,56 @@ main {
 .data-description {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/*review starts here */
+.reviews {
+    padding-top: 130px;
+}
+.review {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.review-title {
+    padding-top: 24px;
+    padding-bottom: 8px;
+}
+
+.review-paragraph {
+    color: rgb(56, 55, 55);
+}
+
+.review-comments {
+    display: flex;
+    justify-content: left;
+    padding-left: 45px;
+    gap: 250px;  
+    padding-top: 24px;
+}
+
+.review-comment {
+    display: flex;
+    gap: 10px;
+    justify-content: left;
+}
+
+.review-img {
+    border-radius: 50%;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+    
+}
+.reviewer-name {
+    color: rgb(84, 77, 77);
+}
+
+.review-date {
+    color: rgb(179, 161, 161);
+    font-size: smaller;
 }
