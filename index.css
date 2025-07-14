@@ -229,11 +229,31 @@ main {
     border: none;
     background-color: white;
     padding: 10px 20px;
-    margin-bottom: 16px;
 }
 
+/*footer starts here*/
 
+footer {
+    text-align: center;
+    margin: 100px 500px;
+}
 
+.footer-logo {
+    color: rgba(78, 71, 255, 1);
+    font-size: 60px;
+    font-weight: 700;
+}
 
+.footer-paragraph {
+    color: rgb(147, 134, 134);
+    font-size: small;
+    padding-bottom: 10px;
+}
+ footer div {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(147, 134, 134);
+
+ }
 
 
